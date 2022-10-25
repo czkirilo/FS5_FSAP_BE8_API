@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YePbC8/0Kc/0wsptwOYu0ucs0oCfYL/KJ41V1K7XrY7u8VeGP906xtL4vo/nKKehcuCaRlmW3gqkqbxOa4uQew==",
+  "dgSpecHash": "RFnlD96H3CkNkVxGXrfpwCkzeIH4MEbQ/LWStjg5yI1KHANbeb3m9oc4I0tC1OycybJo25EnIbLOWZYEOgIQkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caique\\Desktop\\PFST5\\UC11 - ER2\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
+  "projectFilePath": "C:\\Users\\caique\\Documents\\GitHub\\FS5_FSAP_BE8_API\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caique\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caique\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

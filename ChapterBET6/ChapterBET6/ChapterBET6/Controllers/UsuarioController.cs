@@ -34,7 +34,11 @@ namespace ChapterBET6.Controllers
             }
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -51,5 +55,55 @@ namespace ChapterBET6.Controllers
                 throw;
             }
         }
+
+        /// <summary>
+        /// Teste
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult Cadastrar(Usuario usuario)
+        {
+            try
+            {
+                _iusuarioRepository.Cadastrar(usuario);
+
+                return StatusCode(201);
+            }catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Alterar(int id, Usuario usuario)
+        {
+            try
+            {
+                _iusuarioRepository.Atualizar(id, usuario);
+
+                return Ok("Usuario Alterado");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            try
+            {
+                _iusuarioRepository.Deletar(id);
+
+                return Ok("Usuario Deletado");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
     }
 }

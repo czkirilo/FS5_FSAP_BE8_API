@@ -2176,11 +2176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caique\\Desktop\\PFST5\\UC11 - ER2\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
+      "projectUniqueName": "C:\\Users\\caique\\Documents\\GitHub\\FS5_FSAP_BE8_API\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
       "projectName": "ChapterBET6",
-      "projectPath": "C:\\Users\\caique\\Desktop\\PFST5\\UC11 - ER2\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
+      "projectPath": "C:\\Users\\caique\\Documents\\GitHub\\FS5_FSAP_BE8_API\\ChapterBET6\\ChapterBET6\\ChapterBET6\\ChapterBET6.csproj",
       "packagesPath": "C:\\Users\\caique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caique\\Desktop\\PFST5\\UC11 - ER2\\ChapterBET6\\ChapterBET6\\ChapterBET6\\obj\\",
+      "outputPath": "C:\\Users\\caique\\Documents\\GitHub\\FS5_FSAP_BE8_API\\ChapterBET6\\ChapterBET6\\ChapterBET6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caique\\AppData\\Roaming\\NuGet\\NuGet.Config",

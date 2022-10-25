@@ -8,6 +8,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddCors( options =>
+{
+    options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+}
+
+    );
+
 builder.Services.AddScoped<SqlContext, SqlContext>();
 
 builder.Services.AddTransient<LivroRepository, LivroRepository>();
@@ -35,3 +47,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+app.UseCors("CorsPolicy");
