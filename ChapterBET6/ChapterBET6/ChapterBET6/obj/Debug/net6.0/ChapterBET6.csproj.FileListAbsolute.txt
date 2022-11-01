@@ -234,3 +234,5 @@ C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\Chapte
 C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\ChapterBET6\obj\Debug\net6.0\ChapterBET6.pdb
 C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\ChapterBET6\obj\Debug\net6.0\ChapterBET6.genruntimeconfig.cache
 C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\ChapterBET6\obj\Debug\net6.0\ref\ChapterBET6.dll
+C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\ChapterBET6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\caique\Documents\GitHub\FS5_FSAP_BE8_API\ChapterBET6\ChapterBET6\ChapterBET6\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
